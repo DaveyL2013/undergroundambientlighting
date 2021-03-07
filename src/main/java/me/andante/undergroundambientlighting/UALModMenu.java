@@ -1,3 +1,4 @@
+/*
 package me.andante.undergroundambientlighting;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
@@ -90,3 +91,4 @@ public class UALModMenu implements ModMenuApi {
         return new TranslatableText("config." + UndergroundAmbientLighting.MOD_ID + "." + label);
     }
 }
+*/
