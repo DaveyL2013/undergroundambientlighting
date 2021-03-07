@@ -30,11 +30,8 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.minecraft_version}+build.${project.yarn_build}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    modImplementation "com.terraformersmc:modmenu:${project.mod_menu_version}"
-    modRuntime "com.terraformersmc:modmenu:${project.mod_menu_version}"
-
-    modImplementation "me.shedaniel.cloth:cloth-config:${project.cloth_config_version}:fabric"
-    include "me.shedaniel.cloth:cloth-config:${project.cloth_config_version}:fabric"
+    modImplementation "me.shedaniel.cloth:cloth-config:${project.cloth_config_version}"
+    include "me.shedaniel.cloth:cloth-config:${project.cloth_config_version}"
 }
 
 processResources {
