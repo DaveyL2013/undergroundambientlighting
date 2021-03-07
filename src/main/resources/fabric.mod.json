@@ -3,10 +3,11 @@
   "id": "undergroundambientlighting",
   "version": "${version}",
   "name": "Underground Ambient Lighting",
-  "description": "Increases the ambient lighting underground...",
+  "description": "Visually increases the ambient lighting when underground, without affecting mob spawning.",
   "authors": [
     "Andante",
-    "Adammrr"
+    "Adammrr",
+    "DaveyL2013"
   ],
   "contact": {
     "homepage": "https://github.com/andantedevs/undergroundambientlighting",
@@ -19,7 +20,7 @@
     "client": [
       "me.andante.undergroundambientlighting.UndergroundAmbientLighting"
     ],
-    "modmenu": [
+    "modmenu-temp-disabled": [
       "me.andante.undergroundambientlighting.UALModMenu"
     ]
   },
@@ -27,7 +28,7 @@
     "undergroundambientlighting.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.11.1",
-    "minecraft": ">=1.17-alpha.21.6.a"
+    "fabricloader": ">=0.11.2",
+    "minecraft": "1.16.5"
   }
 }
